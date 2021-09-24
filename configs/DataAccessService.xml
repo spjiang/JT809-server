@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataAccessService desc="数据管理服务" version="DataAccessService-v1.0.0-20210303">
+	<systemparam desc="系统参数配置">
+		<property name="charset" desc="协议字符集编码">GBK</property>
+		<property name="managehost" desc="系统状态管理绑定IP">172.165.0.16</property>
+		<property name="manageport" desc="系统状态管理端口">53011</property>
+		<property name="sysversion" desc="服务版本">DataAccessService-v1.0.0-20210303</property>
+		<property name="serverPort809" desc="809协议开放端口">8810</property>
+		<property name="sessionInvalid" desc="会话自动失效时间,单位:秒">120</property>
+	</systemparam>
+
+	<RedisConnection desc="Redis缓存服务客户端配置">
+		<property name="databaseid" desc="数据库id">3</property>
+		<property name="masterhost" desc="Redis主服务器IP">172.165.0.16</property>
+		<property name="masterport" desc="Redis主服务器端口">6379</property>
+		<property name="mastername" desc="Redis主服务器地Master名称"></property>
+		<property name="slaveof" desc="Redis从服务器地址端口，多个以;分割"></property>
+		<property name="auth" desc="Redis鉴权密码">1qaz@WSX</property>
+		<property name="maxconns" desc="连接池最大连接数">1000</property>
+		<property name="maxidles" desc="最大空闲连接数">30</property>
+		<property name="minidles" desc="最小空闲连接数">10</property>
+		<property name="waittime" desc="等待空闲连接时间(毫秒)">3000</property>
+		<property name="opratime" desc="最大操作时间(毫秒)">5000</property>
+		<property name="validate" desc="是否验证连接有效性">true</property>
+		<property name="reconncs" desc="异常重连次数">10</property>
+		<property name="statlevl" desc="统计信息显示级别(debug/info)">info</property>
+	</RedisConnection>
+
+
+	<KFTopic desc="Kafka主题配置">
+		<property name="jt809RegisterTopic" desc="注册数据Topic">JT809-REGISTER-V1</property>
+		<property name="jt809PositionTopic" desc="卫星定位数据Topic">JT809-POSITION-V1</property>
+		<property name="jt809AlarmTopic" desc="报警数据Topic">JT809-ALARM-V1</property>
+		<property name="jt809CanTopic" desc="Can数据Topic">JT809-CAN-V1</property>
+		<property name="jt809OtherTopic" desc="809协议其他业务交换数据Topic">JT808-OTHER-V1</property>
+		<property name="jt809SendTopic" desc="下发/应答报文Topic">JT808-SEND-V1</property>
+	</KFTopic>
+
+	<KafkaConnection desc="Kafka服务配置">
+		<Authenticate desc="认证信息">
+			<property name="isAuth" desc="是否需要认证，true需要false不需要">false</property>
+			<property name="security.protocol" desc="安全协议,配置isAuth=true才生效">SASL_PLAINTEXT</property>
+			<property name="sasl.mechanism" desc="认证机制,配置isAuth=true才生效">PLAIN</property>
+			<property name="productor.auth" desc="认证机制,配置isAucth=true才生效"><![CDATA[org.apache.kafka.common.security.plain.PlainLoginModule required username="tocc" password="tocc!QAZ";]]></property>
+			<property name="consumer.auth" desc="认证机制,配置isAuth=true才生效"><![CDATA[org.apache.kafka.common.security.plain.PlainLoginModule required username="clyjzt" password="7078907d9b7d4931ae3be1707ba0b36b";]]></property>
+		</Authenticate>
+		<Productor desc="生产者信息配置">
+			<property name="bootstrap.servers" desc="kafka集群连接的host/port组">172.165.0.16:9092</property>
+			<property name="acks" desc="Server端应答:0不需要，1要求leader响应ok">1</property>
+			<property name="retries" desc="生产者发送失败后，重试的次数">1</property>
+			<property name="max.in.flight.requests.per.connection" desc="是否立即发送到broker:1立即发送，5批量发送">1</property>
+			<property name="max.block.ms" desc="控制block的时长，当buffer空间不够或者metadata丢失时产生block">30000</property>
+			<property name="key.serializer" desc="Key值编码类型">org.apache.kafka.common.serialization.StringSerializer</property>
+			<property name="value.serializer" desc="Value值编码类型">org.apache.kafka.common.serialization.StringSerializer</property>
+		</Productor>
+		<Consumer desc="消费者信息配置">
+			<property name="bootstrap.servers" desc="kafka集群连接的host/port组">172.165.0.16:9092</property>
+			<property name="enable.auto.commit" desc="是否来定期自动提交消费的偏移量：true、false">true</property>
+			<property name="auto.commit.interval.ms" desc="自动提交消费偏移量间隔时间，单位：毫秒">1000</property>
+			<property name="session.timeout.ms" desc="session失效时间，单位：毫秒">30000</property>
+			<property name="key.deserializer" desc="key的反序列化类">org.apache.kafka.common.serialization.StringDeserializer</property>
+			<property name="value.deserializer" desc="value的反序列化类">org.apache.kafka.common.serialization.StringDeserializer</property>
+		</Consumer>
+	</KafkaConnection>810
+
+	<Platforms desc="下级平台配置信息">
+		<Platform name="云享出租车监控平台">
+			<userId desc="用户名">500000</userId>
+			<password desc="登陆密码">12345678</password>
+			<access desc="接入码">500000</access>
+			<M1 desc="M1">1000000</M1>
+			<IA1 desc="IA1">2000000</IA1>
+			<IC1 desc="IC1">3000000</IC1>
+		</Platform>
+		<Platform name="安徽省到了运输车辆卫星定位监管与服务系统">
+			<userId desc="用户名">500001</userId>
+			<password desc="登陆密码">12345678</password>
+			<access desc="接入码">500001</access>
+			<M1 desc="M1">1000000</M1>
+			<IA1 desc="IA1">2000000</IA1>
+			<IC1 desc="IC1">3000000</IC1>
+		</Platform>
+	</Platforms>
+</DataAccessService>

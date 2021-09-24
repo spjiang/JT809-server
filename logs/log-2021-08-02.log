@@ -1,0 +1,6 @@
+2021-08-02 09:59:54 [INFO] [c.c.e.a.c.ConfigLoader] [85] - 开始加载配置文件...
+2021-08-02 09:59:54 [INFO] [c.c.e.a.c.ConfigLoader] [122] - 配置文件加载成功！
+2021-08-02 09:59:54 [INFO] [c.c.e.a.DataAccessService] [56] - 数据接入服务(dataaccessservice-v1.0.0-20210303)启动...
+2021-08-02 09:59:54 [INFO] [c.c.e.a.DataAccessService] [146] - 内存缓存连接池创建完成！
+2021-08-02 09:59:54 [INFO] [c.c.e.a.DataAccessService] [118] - JT809服务创建完成！8810
+2021-08-02 09:59:54 [INFO] [c.c.e.a.DataAccessService] [59] - ==============================启动完成===============================

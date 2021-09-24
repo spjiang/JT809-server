@@ -1,0 +1,96 @@
+2021-08-01 10:20:04 [INFO] [c.c.e.a.c.ConfigLoader] [85] - 开始加载配置文件...
+2021-08-01 10:20:04 [INFO] [c.c.e.a.c.ConfigLoader] [122] - 配置文件加载成功！
+2021-08-01 10:20:04 [INFO] [c.c.e.a.DataAccessService] [56] - 数据接入服务(dataaccessservice-v1.0.0-20210303)启动...
+2021-08-01 10:20:04 [INFO] [c.c.e.a.DataAccessService] [146] - 内存缓存连接池创建完成！
+2021-08-01 10:20:04 [INFO] [c.c.e.a.DataAccessService] [118] - JT809服务创建完成！8810
+2021-08-01 10:20:04 [INFO] [c.c.e.a.DataAccessService] [59] - ==============================启动完成===============================
+2021-08-01 10:20:36 [INFO] [c.c.e.a.c.ConfigLoader] [85] - 开始加载配置文件...
+2021-08-01 10:20:36 [INFO] [c.c.e.a.c.ConfigLoader] [122] - 配置文件加载成功！
+2021-08-01 10:20:36 [INFO] [c.c.e.a.DataAccessService] [56] - 数据接入服务(dataaccessservice-v1.0.0-20210303)启动...
+2021-08-01 10:20:36 [INFO] [c.c.e.a.DataAccessService] [146] - 内存缓存连接池创建完成！
+2021-08-01 10:20:36 [INFO] [c.c.e.a.DataAccessService] [118] - JT809服务创建完成！8810
+2021-08-01 10:20:36 [INFO] [c.c.e.a.DataAccessService] [59] - ==============================启动完成===============================
+2021-08-01 10:21:52 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:21:52 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:21:52 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:21:52 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:23:08 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:23:08 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:23:08 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:23:08 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:24:24 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:24:24 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:24:24 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:24:24 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:25:39 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:25:39 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:25:39 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:25:39 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:26:55 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:26:55 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:26:55 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:26:55 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:28:11 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:28:11 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:28:11 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:28:11 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:29:26 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:29:26 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:29:26 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:29:26 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:30:42 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:30:42 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:30:42 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:30:42 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:31:58 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:31:58 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:31:58 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:31:58 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:33:13 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:33:13 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:33:13 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:33:13 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:34:29 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:34:29 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:34:29 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:34:29 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:35:45 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:35:45 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:35:45 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:35:45 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:37:00 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:37:00 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:37:00 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:37:00 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:38:16 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:38:16 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:38:16 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:38:16 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:39:32 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:39:32 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:39:32 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:39:32 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:40:47 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:40:47 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:40:47 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:40:47 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:42:03 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:42:03 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:42:03 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:42:03 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:43:19 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:43:19 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:43:19 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:43:19 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:44:35 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:44:35 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:44:35 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:44:35 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:45:50 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -3 (/10.224.10.109:9092) could not be established. Broker may not be available.
+2021-08-01 10:45:50 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.109:9092 (id: -3 rack: null) disconnected
+2021-08-01 10:45:50 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -2 (/10.224.10.107:9092) could not be established. Broker may not be available.
+2021-08-01 10:45:50 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.107:9092 (id: -2 rack: null) disconnected
+2021-08-01 10:47:06 [WARN] [o.a.k.c.NetworkClient] [762] - [Producer clientId=producer-1] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:47:06 [WARN] [o.a.k.c.NetworkClient] [1030] - [Producer clientId=producer-1] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
+2021-08-01 10:47:06 [WARN] [o.a.k.c.NetworkClient] [762] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Connection to node -1 (/10.224.10.105:9092) could not be established. Broker may not be available.
+2021-08-01 10:47:06 [WARN] [o.a.k.c.NetworkClient] [1030] - [Consumer clientId=consumer-dataSenderGroup-1, groupId=dataSenderGroup] Bootstrap broker 10.224.10.105:9092 (id: -1 rack: null) disconnected
